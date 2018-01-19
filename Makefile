@@ -406,7 +406,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -std=gnu89
 
 # Optimization for Pixel
-KBUILD_CFLAGS   += -march=armv8-a+crypto+crc -mtune=cortex-a72.cortex-a53 -O2 -Wno-error
+# KBUILD_CFLAGS   += -march=armv8-a+crypto+crc -mtune=cortex-a72.cortex-a53 -O2 -Wno-error
 
 KBUILD_AFLAGS_KERNEL :=
 KBUILD_CFLAGS_KERNEL :=
